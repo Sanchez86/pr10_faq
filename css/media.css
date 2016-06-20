@@ -2320,6 +2320,9 @@
 .about .aboutColorBloks .aboutColorBlok2 .aboutColorBlokIcon{
     height:91px;
 }
+.about .aboutColorBloks .aboutColorBlok4 .aboutColorBlokIcon {
+    height: 77px;
+}
 }
 @media only screen and (max-width: 767px) {
     .about .aboutUs{
