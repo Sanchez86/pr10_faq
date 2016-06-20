@@ -629,6 +629,7 @@
     }
 }
 @media only screen and (max-width: 992px) {
+
     .education {
         width: 160px
     }
@@ -1012,9 +1013,9 @@
         width: 270px
     }
     .navbar-nav > li > a {
-        padding-right: 8px!important;
-        padding-left: 8px!important;
-        font-size: 14px!important
+       padding-right: 7px!important;
+    padding-left: 7px!important;
+    font-size: 13px!important;
     }
     .wrap header .login {
         margin-left: 0!important;
@@ -1268,6 +1269,11 @@
     }
 }
 @media only screen and (max-width: 768px) {
+    .navbar-nav > li > a{
+         padding-right: 8px!important;
+        padding-left: 8px!important;
+        font-size: 14px!important
+    }
     .grafikBlock {
         width: 300px;
         margin: 0 auto;
@@ -1376,6 +1382,11 @@
     }
 }
 @media only screen and (max-width: 767px) {
+    #topMenue .login{
+        background:none;
+            margin-top: 22px !important;
+            margin-bottom: 31px;
+    }
     h4{
         line-height: 17px;
     }
