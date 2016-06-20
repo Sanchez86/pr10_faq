@@ -525,6 +525,7 @@ $('.subFlag').on('mouseleave', function () {
 $('.accordionHeader').on('click', function () {
     $(this).children('.faq_header').toggleClass('accordionHeaderActive');
     $(this).children('.spanPlus').toggleClass('spanMinus');
+    
     $(this).siblings('.accordionContent').toggle('show');
     
 })
