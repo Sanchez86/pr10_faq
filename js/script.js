@@ -515,10 +515,23 @@ $('.subFlag').on('mouseleave', function () {
 });
 /*///////////////////////////////////////////
     End Contact
+    ///////////////////////////////////////////*/
+
+
+/*///////////////////////////////////////////
+    FAQ
 ///////////////////////////////////////////*/
 
+$('.accordionHeader').on('click', function () {
+    $(this).children('.faq_header').toggleClass('accordionHeaderActive');
+    $(this).children('.spanPlus').toggleClass('spanMinus');
+    $(this).siblings('.accordionContent').toggle('show');
+    
+})
 
-
+/*///////////////////////////////////////////
+    End FAQ
+///////////////////////////////////////////*/
 });
 
 
