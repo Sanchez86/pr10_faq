@@ -28,6 +28,7 @@
   src: url('../fonts/OpenSans-Semibold.ttf') format('truetype');
 }
 body {
+  overflow-x: hidden;
   font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 .container {
