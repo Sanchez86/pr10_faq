@@ -310,7 +310,7 @@
     .logoFoter {
         margin-right: 100px
     }
-    .home {
+    div.home {
         width: 125px
     }
     .trade {
@@ -636,7 +636,7 @@
     .trade {
         width: 100px
     }
-    .home {
+    div.home {
         width: 105px
     }
     .marketing {
@@ -719,7 +719,7 @@
         padding-top: 25px
     }
     .logoFoter p,
-    .home p,
+    div.home p,
     .trade p,
     .education p,
     .marketing p {
@@ -1215,7 +1215,7 @@
     .logoFoter {
         margin-right: 5px
     }
-    .home {
+    div.home {
         width: 95px
     }
     .trade {
@@ -1399,10 +1399,10 @@
         margin-top: 22px!important;
         margin-bottom: 10px
     }
-    .logoFoter, .home, .trade, .education, .marketing, .subSocial {
+    .logoFoter, div.home, .trade, .education, .marketing, .subSocial {
         height: 80px
     }
-    .home, .trade {
+    div.home, .trade {
         width: 85px
     }
     .education {
@@ -1923,7 +1923,7 @@
         font-size: 14px;
         line-height: 15px
     }
-    .home,
+    div.home,
     .trade,
     .education,
     .marketing {
@@ -1933,7 +1933,7 @@
      .marketing {
         width: 110px
     }
-    .education, .home {
+    .education, div.home {
         width: 180px
     }
     #footerP {

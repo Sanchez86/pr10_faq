@@ -129,7 +129,7 @@ a:hover {
 .logoFoter {
   margin-right: 168px;
 }
-.home {
+div.home {
   width: 135px;
 }
 .trade {
@@ -142,7 +142,7 @@ a:hover {
   width: 212px;
 }
 .logoFoter,
-.home,
+div.home,
 .trade,
 .education,
 .marketing,
@@ -1748,7 +1748,7 @@ select {
 .footer ul li {
   height: 24px;
 }
-.home,
+div.home,
 .trade {
   padding-right: 0;
 }
