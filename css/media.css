@@ -2501,3 +2501,135 @@ display:none;
 /*///////////////////////////////////////////
    End About Us
 ///////////////////////////////////////////*/
+
+/*///////////////////////////////////////////
+   FAQ
+///////////////////////////////////////////*/
+@media only screen and (max-width: 1500px) {
+.faq .deposits{
+    background-size: cover!important;
+}
+.faq .deposits .container{
+    max-width:1250px;
+}
+.faq .blockDeposits{
+        padding-right: 40px!important;
+        width: 600px!important;
+}
+.faq .blockWithdrawals{
+        padding-left: 40px!important;
+        width: 600px!important;
+}
+.faq .deposits .accordion .accordionHeader .faq_header{
+    max-width: 550px;
+    font-size: 25px;
+}
+.accordion .accordionContent {
+    font-size: 18px!important;
+    }
+}
+@media only screen and (max-width: 1300px) {
+        .faq .blockDeposits,
+        .faq .blockWithdrawals{
+            margin:0 auto!important;
+            float: none!important;
+            text-align: center!important;
+            padding: 0!important;
+    }
+    .faq .blockDeposits{
+        margin-bottom: 40px!important;
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .faq .accordion .accordionHeader .faq_header{
+            font-size: 22px;
+            max-width: 600px;
+    }
+    .faq .accordion{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .faq .general .faq_header{
+        max-width: 600px!important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .faq .deposits .blockWithdrawals,
+    .faq .deposits .blockDeposits{
+            max-width: 380px;
+    }
+    .faq .deposits h2{
+            font-size: 38px;
+            font-weight: normal;
+            line-height: 62px;
+    }
+    .faq .deposits h3{
+            font-size: 34px;
+    }
+   .faq .deposits img{
+        width: 35%;
+    }
+    .faq .deposits .accordion .accordionHeader .faq_header{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .faq .deposits{
+        padding-bottom: 44px;
+    }
+    .faq .faqContentTop h2,
+    .faq .myAccount h2,
+    .faq .general h2{
+        font-size: 38px;
+    }
+
+    .faq .accordion .accordionHeader .faq_header {
+    font-size: 18px;
+    max-width: 300px;
+    line-height: 29px;
+}
+.faq .accordion .accordionContent{
+    line-height: 29px;
+    margin-top: 5px;
+    font-size: 15px!important;
+}
+.faq .general .accordion .accordionHeader .faq_header{
+    max-width: 280px!important;
+        font-size: 16px;
+}
+.faq .faqHeader{
+        height: 204px;
+    padding-top: 122px;
+}
+}
+@media only screen and (max-width: 413px) {
+    .faq .accordion .accordionHeader .faq_header {
+    font-size: 16px;
+    max-width: 260px;
+    line-height: 28px;
+}
+.faq .deposits .blockWithdrawals, .faq .deposits .blockDeposits {
+    max-width: 320px;
+}
+.faq .general .accordion{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+@media only screen and (max-width: 374px) {
+    .faq .deposits .blockWithdrawals, .faq .deposits .blockDeposits {
+    max-width: 290px;
+}
+    .faq .accordion{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.faq .accordion .accordionHeader .faq_header {
+    max-width: 230px;
+}
+.faq .general .accordion .accordionHeader .faq_header {
+    max-width: 230px!important;
+}
+}
+/*///////////////////////////////////////////
+   End FAQ
+///////////////////////////////////////////*/
