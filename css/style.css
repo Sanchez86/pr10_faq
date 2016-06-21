@@ -2773,6 +2773,155 @@ div.home,
 .account .accauntBlocks .platinumAccount h4 {
   color: #f5842a;
 }
+.account .bgContactForm {
+  background-image: url('../images/account/bg_accountFormContact.jpg');
+  background-repeat: no-repeat;
+  padding-top: 49px;
+  padding-bottom: 101px;
+}
+.account .bgContactForm h2 {
+  font-weight: bold;
+  margin-bottom: 54px;
+}
+.account .bgContactForm .subContactForm {
+  width: 773px;
+  height: 325px;
+  border: 1px solid #c57033;
+  margin: 0 auto;
+  background-color: rgba(41, 41, 41, 0.71);
+  padding-left: 31px;
+  padding-right: 30px;
+}
+.account .bgContactForm .subContactForm h3 {
+  color: #fff;
+  font-size: 29px;
+  font-family: 'Futura Lt BT';
+  line-height: 32px;
+  letter-spacing: 0.39px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 33px;
+  margin-bottom: 35px;
+}
+.account .bgContactForm .subContactForm .contactForm {
+  /* плавное изменение прозрачности  placeholder-а при фокусе */
+}
+.account .bgContactForm .subContactForm .contactForm p {
+  margin: 0;
+  text-align: center;
+}
+.account .bgContactForm .subContactForm .contactForm input[type="text"] {
+  border: 1px solid #fff;
+  background-color: inherit;
+  width: 350px;
+  height: 40px;
+  padding-left: 12px;
+}
+.account .bgContactForm .subContactForm .contactForm textarea {
+  border: 1px solid #fff;
+  background-color: inherit;
+  width: 100%;
+  height: 93px;
+  margin-top: 15px;
+  padding-left: 12px;
+  color: #878686;
+  font-size: 16px;
+  font-family: OpenSans-Light;
+  max-width: 710px;
+  max-height: 93px;
+  resize: none;
+}
+.account .bgContactForm .subContactForm .contactForm input[type="text"]::-webkit-input-placeholder,
+.account .bgContactForm .subContactForm .contactForm textarea::-webkit-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #878686;
+  font-size: 16px;
+  font-family: OpenSans-Light;
+}
+.account .bgContactForm .subContactForm .contactForm input[type="text"]::-moz-placeholder,
+.account .bgContactForm .subContactForm .contactForm textarea::-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #878686;
+  font-size: 16px;
+  font-family: OpenSans-Light;
+}
+.account .bgContactForm .subContactForm .contactForm input[type="text"]:-moz-placeholder,
+.account .bgContactForm .subContactForm .contactForm textarea:-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #878686;
+  font-size: 16px;
+  font-family: OpenSans-Light;
+}
+.account .bgContactForm .subContactForm .contactForm input[type="text"]:-ms-input-placeholder,
+.account .bgContactForm .subContactForm .contactForm textarea:-ms-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #878686;
+  font-size: 16px;
+  font-family: OpenSans-Light;
+}
+.account .bgContactForm .subContactForm .contactForm input[type="text"]:focus::-webkit-input-placeholder,
+.account .bgContactForm .subContactForm .contactForm textarea:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: #878686;
+  font-size: 16px;
+  font-family: OpenSans-Light;
+}
+.account .bgContactForm .subContactForm .contactForm input[type="text"]:focus::-moz-placeholder,
+.account .bgContactForm .subContactForm .contactForm textarea:focus::-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: #878686;
+  font-size: 16px;
+  font-family: OpenSans-Light;
+}
+.account .bgContactForm .subContactForm .contactForm input[type="text"]:focus:-moz-placeholder,
+.account .bgContactForm .subContactForm .contactForm textarea:focus:-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: #878686;
+  font-size: 16px;
+  font-family: OpenSans-Light;
+}
+.account .bgContactForm .subContactForm .contactForm input[type="text"]:focus:-ms-input-placeholder,
+.account .bgContactForm .subContactForm .contactForm textarea:focus:-ms-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: #878686;
+  font-size: 16px;
+  font-family: OpenSans-Light;
+}
+.account .bgContactForm .subContactForm .contactForm input[type="submit"] {
+  margin-top: 35px;
+  text-transform: uppercase;
+  letter-spacing: 0.30px;
+  border: 1px solid #f29e5b;
+  background-color: #f56b1f;
+  padding-top: 19px;
+  padding-bottom: 20px;
+  padding-left: 125px;
+  padding-right: 126px;
+  -webkit-box-shadow: 4px 2px 0px 0px #ffffff;
+  -moz-box-shadow: 4px 2px 0px 0px #ffffff;
+  box-shadow: 4px 2px 0px 0px #ffffff;
+  transition: all 0.5s;
+  outline: 0;
+  color: #ffffff;
+  font-size: 26px;
+  font-family: 'futura md bt';
+  line-height: 24px;
+  -webkit-appearance: button;
+}
+.account .bgContactForm .subContactForm .contactForm input[type="submit"]:hover {
+  box-shadow: 4px 2px 0px 0px #ff6f00;
+  background-color: #fff;
+  color: #f56b1f;
+  transition: all 0.5s;
+}
 /*///////////////////////////////////////////
    End Account
 ///////////////////////////////////////////*/

@@ -2539,8 +2539,16 @@ display:none;
     .faq .blockDeposits{
         margin-bottom: 40px!important;
     }
+	.faq .deposits{
+		max-height:inherit;
+	}
+	.faq .faqHeader{
+		height: 188px;
+		padding-top: 127px;
+	}
 }
 @media only screen and (max-width: 1023px) {
+	
     .faq .accordion .accordionHeader .faq_header{
             font-size: 22px;
             max-width: 600px;
@@ -2552,8 +2560,10 @@ display:none;
     .faq .general .faq_header{
         max-width: 600px!important;
     }
+	
 }
 @media only screen and (max-width: 767px) {
+	
     .faq .deposits .blockWithdrawals,
     .faq .deposits .blockDeposits{
             max-width: 380px;
@@ -2597,9 +2607,10 @@ display:none;
         font-size: 16px;
 }
 .faq .faqHeader{
-        height: 204px;
-    padding-top: 122px;
-}
+		height: 166px;
+    padding-top: 103px;
+	}
+
 }
 @media only screen and (max-width: 413px) {
     .faq .accordion .accordionHeader .faq_header {
@@ -2614,6 +2625,7 @@ display:none;
     padding-left: 15px;
     padding-right: 15px;
 }
+
 }
 @media only screen and (max-width: 374px) {
     .faq .deposits .blockWithdrawals, .faq .deposits .blockDeposits {
