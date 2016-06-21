@@ -2454,6 +2454,7 @@ div.home,
   background-image: url('../images/faq/365_binary_option_faq_bg.png');
   padding-top: 44px;
   padding-bottom: 109px;
+  max-height: 1000px;
 }
 .faq .deposits .accordion {
   border: 0;
@@ -2472,7 +2473,7 @@ div.home,
 .faq .deposits h2 {
   font-size: 48px;
   font-weight: bold;
-  margin-bottom: 43px;
+  margin-bottom: 49px;
 }
 .faq .deposits h3 {
   color: #ffffff;
@@ -2480,7 +2481,7 @@ div.home,
   font-size: 40px;
   letter-spacing: 0.1px;
   text-transform: uppercase;
-  margin-top: 37px;
+  margin-top: 41px;
   margin-bottom: 52px;
 }
 .faq .deposits .blockDeposits {
@@ -2537,8 +2538,12 @@ div.home,
   transition: color 0.5s;
   line-height: 36px;
 }
+.faq .accordion .accordionHeader .faq_header:hover {
+  color: #f56e03!important;
+  cursor: default;
+}
 .faq .accordion .accordionHeader .accordionHeaderActive {
-  color: #f56e03;
+  color: #f56e03!important;
   transition: color 0.5s;
 }
 .faq .accordion .accordionHeader .spanPlus {
@@ -2564,7 +2569,7 @@ div.home,
   font-family: OpenSans-Light;
   line-height: 32px;
   letter-spacing: 0.3px;
-  margin-top: 26px;
+  margin-top: 22px;
   display: none;
 }
 .faq .myAccount {
@@ -2645,9 +2650,13 @@ div.home,
   line-height: 52px;
   text-transform: uppercase;
 }
+.account .accauntBlocks {
+  padding-bottom: 140px;
+}
 .account .accauntBlocks .accauntBlock {
   float: left;
   background-color: #f7f7f7;
+  position: relative;
 }
 .account .accauntBlocks .accauntBlock .accauntTopLine {
   width: 100%;
@@ -2679,6 +2688,23 @@ div.home,
   padding-left: 22px;
   padding-right: 22px;
   padding-bottom: 41px;
+}
+.account .accauntBlocks .accauntBlock .accauntBlockContent a {
+  display: block;
+  width: 290px;
+  height: 76px;
+  background-color: #2da75c;
+  border: 1px solid #238549;
+  color: #ffffff;
+  font-size: 32px;
+  font-family: 'futura md bt';
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 71px;
+  position: absolute;
+  bottom: -39px;
+  left: 30px;
+  box-shadow: 3px 2px 0px 0px #ffffff;
 }
 .account .accauntBlocks .accauntBlock .accauntBlockContent div p {
   background-image: url('../images/account/accIcon.png');
@@ -2723,6 +2749,11 @@ div.home,
   width: 375px;
   background-color: #e1c97e;
   margin-top: -31px;
+}
+.account .accauntBlocks .goldAccount a {
+  background-color: #c99a0d!important;
+  border-color: #845532!important;
+  left: 43px!important;
 }
 .account .accauntBlocks .goldAccount .accauntTopLine {
   background-color: #c99a0d;

@@ -540,7 +540,7 @@ $('.accordionHeader').on('click', function () {
 var accauntBlocks = $('.accauntBlocks').height();
 
 $('.accauntBlock').height(accauntBlocks);
-$('.goldAccount').height(accauntBlocks+31);
+$('.goldAccount').height(accauntBlocks+62);
 
 /*///////////////////////////////////////////
 End account
